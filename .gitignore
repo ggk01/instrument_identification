@@ -1,0 +1,33 @@
+# Ignore audio and large data
+#data/
+#outputs/
+
+# Ignore notebooks' checkpoints
+**/.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+.conda/
+env/
+venv/
+instrument-detect/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignore dataset folders
+data/AAM DataSet/AAM/
+data/raw/
